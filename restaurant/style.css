@@ -1,0 +1,150 @@
+
+/* General Styling */
+body {
+    font-family: 'Noto Sans Tamil', Arial, sans-serif;
+    background-color: #fffaf2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #302019;
+}
+
+.navbar-brand {
+    color: #ffc107 !important;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Hero Section */
+.hero {
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+/* Menu */
+#menu h2 {
+    color: #8b3e20;
+    font-weight: bold;
+}
+
+/* Food Cards */
+.food-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+
+    transition: 0.3s;
+    height: 100%;
+}
+
+.food-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.food-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.food-card h5 {
+    color: #713719;
+    font-weight: bold;
+}
+
+.food-card h6 {
+    color: #e07817;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-warning {
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/* Cart */
+.cart-box {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#total {
+    color: #b45309;
+    font-weight: bold;
+}
+
+/* Contact */
+.contact {
+    background-color: #302019;
+    color: white;
+    margin-top: 30px;
+}
+
+.contact h2 {
+    color: #ffc107;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1511;
+    color: white;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 80px 15px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .cart-box {
+        padding: 15px;
+    }
+}
